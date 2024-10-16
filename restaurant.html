@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Saffron & Spice</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>YOUSSEF MANSY</strong></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">About Me</a></li>
+					</ul>
+					
+				</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1 style="text-align: center;">Saffron and Spice Meal Review App - IN PROGRESS</h1>
+							</header>
+							<div class="content">
+								<p style="text-align: center;">A Native Android App that allows restaurant managers to get user feedback seamlessly</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+								
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>About the Project</h3>
+											</header>
+											<p>Saffron and Spice restaurant app offers a seamless experience for both customers and admins. Users can browse detailed 
+												menus, complete with item descriptions, prices, and images, as well as submit reviews, rate meals, and 
+												search for specific dishes quickly. Admins gain access to detailed reports on meal reviews and comments
+												effortlessly. This app makes use of Supabase as the backend with a table containing all menu items and all
+												relevant information about them. Java threads are used to manage asynchronous operations, making for a seamless
+												and quick user experience.
+												
+											</p>
+										
+											
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="images/restaurant_home.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Home Screen</h3>
+											</header>
+											<p>
+												When you first open the app you are presented with the home screen that
+												 includes two buttons, one will take you to the user screen and another to the admin screen.
+											</p>
+											<ul class="actions">
+												<li><a href="https://github.com/YMANSY1/RestaurantApp" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/restaurant_menu.png" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Menu Page</h3>
+											</header>
+											<p>Next is the menu screen; in this screen the user (or admin) may choose a meal they wish to access. 
+											   A slightly modified version of this screen exists for both admins and users. The user screen includes a done
+											   button at the bottom that, when clicked after reviewing, displays a personalised message to user depending on the
+											   nature of their ratings. Three possible messages exist, one being elated about getting a perfect 5 star on all meals,
+											   the second thanking the user for positive feedback, and the third apologizing for a bad experience and assuring that
+											   their feedback made its way to upper management. The admin version of the menu screen in the once shown here, with 
+											   the average overall rating for each meal.
+											</p>
+											<ul class="actions">
+												<li><a href="https://github.com/YMANSY1/RestaurantApp" class="button">Learn more</a></li>
+											</ul>
+										
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="images/restaurant_review.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Meal Review Screen</h3>
+											</header>
+											<p>
+												When the user clicks the meal they wish to review they are sent to the screen seen here. The screen
+												allows the user to review individual ingredients and leave a comment. The user has to review at least
+												one ingredient for the review to be recorded and the submit button to be clickable, leaving a comment
+												is entirely optional. This screen serves as a simple and user-friendly way for the user to leave a 
+												review for the meals they ate.
+											</p>
+											<ul class="actions">
+												<li><a href="https://github.com/YMANSY1/RestaurantApp" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="images/restaurant_report.png" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Meal Report Screen</h3>
+											</header>
+											<p>
+												After the user presses submit on a review, their numbers are added to the average rating for each 
+												ingredient stored in the Supabase table. This average calculation is then retrieved and displayed in 
+												meal report screen for each meal. In this screen the number of stars denotes the average amounts of 
+												stars this meal recieved from users, and below it are the comments left by users about the meal. This
+												provides clear and concise reporting about each meal, allowing upper management to derive insights from 
+												the displayed data. This project was amazing and fun learning experience for me. Learning Supabase and 
+												PostgreSql databases was a valuable learning experience and the use of Recycler Views and Java threads 
+												taught me new coding methods and tricks that have drastically increased my skills as an Android developer.
+											</p>
+											<ul class="actions">
+												<li><a href="https://github.com/YMANSY1/StarWarsInfoApp" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+				
+
+					</div>
+
+				
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+							<!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<!-- <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<li><a href="https://www.upwork.com/freelancers/~012a7da7381c9cf412" class="fa-brands fa-upwork"><span class="label">Upwork</span></a></li>
+							<li><a href="https://github.com/YMANSY1" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/youssef-mansy/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>© YM</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
