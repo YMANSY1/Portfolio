@@ -44,7 +44,7 @@
 								<img src="images/pic07.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1 style="text-align: center;">Lapboost</h1>
+								<h1 style="text-align: center;">Lapboost <br> <a>🏆Award Winner🏆</a></h1>
 							</header>
 							<div class="content">
 								<p style="text-align: center;">A project for managing interactions with a laptop repair startup for both users and management using an integrated MySQL database</p>
@@ -63,149 +63,310 @@
 											<header class="major">
 												<h3>About the Project</h3>
 											</header>
-											<p>This project allows the founders of the startup LapBoost to expand their database management
-												from excel to SQL with a cross-platform application to boot! The app interacts with the 
-												database to allow users to make order from the user app and track said orders and services.
-												The app includes an authentication system for users allowing for more efficient user management.
-												The admin app is a work in progress but it will allow management of employees, orders, inventory,
-												etc. Both apps allow the users to make all CRUD operations to the database. Here's a sneak peek of
-												the user app!
+											<p>Previously just a sneak peek, the LapBoost app is now fully complete—and award-winning!
+
+												This project marks LapBoost’s full transition from Excel-based management to a powerful SQL-backed system with a fully developed cross-platform application. The user app lets customers seamlessly browse and purchase parts, track their orders in real-time, and manage their service requests. On the other hand, the admin app gives managers full control over the business, from assigning orders and managing employees to tracking inventory and coordinating with suppliers.
+												
+												With secure authentication, full CRUD functionality, and a smooth user experience, LapBoost is now running better than ever—efficient, scalable, and built to last.
+												
+												And to top it off, LapBoost won 1st place in the ECEN424 course ranking at the 19th Undergraduate Research Forum (UGRF)! 🚀
 											</p>
 											
 										</div>
 									</div>
 								</section>
 								<section>
-									<a class="image">
-										<img src="images/lapboost_auth.png" alt="" data-position="top center" />
-									</a>
+									<div class="image-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+										<a class="image" style="flex: 1;">
+											<img src="images/lapboost_auth.png" alt="Login screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+										<a class="image" style="flex: 1;">
+											<img src="images/lapboost_signup.png" alt="Signup screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+									</div>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Login and Signup Screen</h3>
 											</header>
 											<p>
-												A screen allowing users to make an account or login to their existing accounts. 
+												A screen allowing users to make an account or login to their existing accounts. Basic authentication practices like 
+												detecting similar emails and phone numbers on signup and ensuring the fields include appropriate emails and phone numbers
+												were used to ensure a safe and secure experience.
 											</p>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/request_service.png" alt="" data-position="25% 25%" />
-									</a>
+									<div class="image-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+										<a class="image" style="flex: 1;">
+											<img src="images/request_service.png" alt="Login screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+										<a class="image" style="flex: 1;">
+											<img src="images/service selection page.png" alt="Signup screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+									</div>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Service Requests</h3>
+												<h3>Service Requests Progression</h3>
 											</header>
-											<p>After the user logs in they may request a service offered by LapBoost, the user simply chooses the
-												service and saves their address if needed. The service is then recorded upon confirmation and will
-												be sent to LapBoost management.
-											</p>
+											
+												<strong>Before:</strong> The initial service request form required users to select each service individually, 
+												navigating to separate screens to complete forms for every service. This fragmented approach resulted in: 
+												<ul style="margin: 0; padding-left: 20px;">
+													<li>Poor user experience due to repetitive navigation</li>
+													<li>Excessive database entries from single-service orders</li>
+													<li>No ability to combine services/items in one transaction</li>
+												</ul>
+												<strong>After:</strong> The redesigned system introduces a unified cart experience allowing:
+												<ul style="margin: 0; padding-left: 20px;">
+													<li>Multi-service selection in a single session</li>
+													<li>Combined service requests and marketplace purchases</li>
+													<li>Streamlined data structure reducing database bloat</li>
+												</ul>
+												This redesign streamlined workflows through modern UX patterns while establishing 
+												a foundation for scalable service management – directly addressing core pain points 
+												from the original implementation.
+											
 										
 										</div>
 									</div>
 								</section>
 								<section>
-									<a class="image">
-										<img src="images/marketplace.png" data-position="top center" />
-									</a>
+									<div class="image-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+										<a class="image" style="flex: 1;">
+											<img src="images/marketplace_buy.png" alt="Login screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+										<a class="image" style="flex: 1;">
+											<img src="images/marketplace page.png" alt="Signup screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+									</div>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Marketplace</h3>
+												<h3>Marketplace Progression</h3>
+											</header>
+											<strong>Before:</strong> The original marketplace restricted users to single-item purchases with fixed quantities, resulting in:
+											<ul style="margin: 0; padding-left: 20px;">
+												<li>Frustrating checkout loops for multiple items</li>
+												<li>Inventory management challenges from fragmented orders</li>
+												<li>No quantity customization or bulk purchasing</li>
+											</ul>
+											<strong>After:</strong> Enhanced marketplace features now enable:
+											<ul style="margin: 0; padding-left: 20px;">
+												<li>Multi-item cart system with adjustable quantities</li>
+												<li>Combined purchases across product categories</li>
+												<li>Ability to increase quantity outside of the cart screen by repeatedly pressing the add to cart button the requisite amount of times</li>
+												<li>Smart inventory deduction with real-time updates</li>
+											</ul>
+											This overhaul introduced essential e-commerce functionality while maintaining the platform's repair-service focus - 
+											creating a cohesive shopping experience that mirrors modern retail standards.
+										</div>
+									</div>
+								</section>
+								<section>
+									<div class="image-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+										<a class="image" style="flex: 1;">
+											<img src="images/cart page .png" alt="Login screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+										<a class="image" style="flex: 1;">
+											<img src="images/checkout page.png" alt="Signup screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+									</div>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Checkout Process Upgrade and Cart System</h3>
+											</header>
+											<strong>Cart System:</strong> Now there is an integrated cart system allowing the user to select both items and services.
+											the user has to specify a specific device of theirs for the service to be done on and specify the quantity of the marketplace item.
+											<br>
+											<strong>Checkout Screen:</strong> Now the user gets taken to a final checkout screen where their cart is displayed to them,
+											allowing them to change their address, stipulate whether or not they need delivery, and see their final
+											calculated total. After confirmation the order is recorded in the database.
+										</div>
+									</div>
+								</section>
+								<section>
+									<div class="image-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+										<a class="image" style="flex: 1;">
+											<img src="images/settings devices.png" alt="Login screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+										<a class="image" style="flex: 1;">
+											<img src="images/settings user.png" alt="Signup screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+									</div>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Settings Screen</h3>
 											</header>
 											<p>
-												The users may also check the lapboost marketplace and buy all the components they need. they
-												are given the ability to search for the component they need, or filter based on what they want to see.
-												Once the user finds what they wish to buy, they will press on the item they desire and be sent to the screen
-												to buy it.
+											The settings screen allows the user to add their devices for services and alter their data including their
+												email, password, address, phone number, and more. The user may also delete their account or log out is they wish.
+												This provides an easy interface for users to view and edit their credentials.
 											</p>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a class="image">
-										<img src="images/marketplace_buy.png" alt="" data-position="top center" />
-									</a>
+									<div class="image-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+										<a class="image" style="flex: 1;">
+											<img src="images/technician_assigned.png" alt="Login screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+										<a class="image" style="flex: 1;">
+											<img src="images/technician_past.png" alt="Signup screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+									</div>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Buying Items</h3>
+												<h3>Technician App</h3>
 											</header>
-											<p>
-											The user may fill the information and select the quantity they need using the quantity counter, then they can
-											press the confirm button and they order will be recorded. Providing an easy way to make orders and track them.
-											</p>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a class="image">
-										<img src="images/order_tracking.png" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Order Tracking</h3>
-											</header>
-											<p>
-												The user app allows the users to track their orders, their price, what stage of delivery and 
-												processing they are in, and finally cancel the orders if needed. This allows for an all-in-one 
-												location for the users to interact with their LapBoost transactions.
-											</p>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a class="image">
-										<img src="images/edit_settings.png" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Edit your account</h3>
-											</header>
-											<p>
-												The user app provides user with the ability to change all their information. Allowing them to update, 
-												add to, or delete their accounts all through the application. Making the interactions with the apps easier and
-												more streamlined.
-											</p>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a class="image">
-										<img src="" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>A Work in Progress</h3>
-											</header>
-											<p>
-												Since the project is still not complete and work on the admin app is still not yet finalised,
-												the app cannot yet be displayed on this porfolio properly; however, this project has been a 
-												useful way of interacting with MySQL databases and using them to make an extremely useful application
-												for both management and users alike!
-											</p>
-										</div>
-									</div>
-								</section>
-							
-							</section>
-					</div>
+											<strong>Job Progress Tracking:</strong>
+											<ul style="margin: 0; padding-left: 20px;">
+												<li>Real-time status updates from "To Be Scheduled" → "Scheduled" → "Received"</li>
+												<li>One-touch transition between repair stages with date tracking</li>
+												<li>"Lost" Status not allowed for Technicians as it requires manager privileges</li>
+											</ul>
 
-				
+											<strong>Completed Jobs Archive:</strong>
+											<ul style="margin: 0; padding-left: 20px;">
+												<li>Automated job archiving upon delivery confirmation</li>
+												<li>Historical record with completion date</li>
+												<li>Technician not allowed to roll back the status of an order as that requires manager privileges</li>
+											</ul>
+
+											<p>This system ensures accountability through stage-by-stage verification while providing technicians 
+											with tangible metrics to optimize their workflow and service quality.</p>
+										</div>
+									</div>
+								</section>
+								<section>
+									<div class="image-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+										<a class="image" style="flex: 1;">
+											<img src="images/manager current order.png" alt="Orders List screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+										<a class="image" style="flex: 1;">
+											<img src="images/manager past orders.png" alt="Order Details screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+									</div>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Manager App - Order Management</h3>
+											</header>
+											
+											<strong>Order Overview & Tracking:</strong>
+											<ul style="margin: 0; padding-left: 20px;">
+												<li>Comprehensive order list for active, completed, and canceled orders</li>
+												<li>Detailed order view including customer info, assigned technician, and part requirements</li>
+												<li>Seamless status updates through repair stages, with full audit tracking</li>
+											</ul>
+								
+											<strong>Technician Assignment & Management:</strong>
+											<ul style="margin: 0; padding-left: 20px;">
+												<li>One-click assignment or reassignment of technicians</li>
+												<li>Technician Assignment reflected on Technician app</li>
+												<li>Only managers can make order status "Lost" or roll back orders, ensuring controlled workflow</li>
+											</ul>
+								
+											<strong>Order History & Insights:</strong>
+											<ul style="margin: 0; padding-left: 20px;">
+												<li>Instant access to past orders for performance review and analytics</li>
+												<li>Track parts usage, delivery delays, and technician efficiency over time</li>
+												<li>Ensures data integrity by preventing unauthorized modifications</li>
+											</ul>
+								
+											<p>The Manager App Order Management screen centralizes all order-related operations from assignment to completion—ensuring efficient tracking, transparency, and seamless technician coordination.</p>
+										</div>
+									</div>
+								</section>
+								<section>
+									<div class="image-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+										<a class="image" style="flex: 1;">
+											<img src="images/manager current employees.png" alt="Current Employees screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+										<a class="image" style="flex: 1;">
+											<img src="images/manager past employees.png" alt="Past Employees screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+									</div>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Manager App - Employee Management</h3>
+											</header>
+											
+											<strong>Employee Directory & Status:</strong>
+											<ul style="margin: 0; padding-left: 20px;">
+												<li>Comprehensive employee list categorized into active and past employees</li>
+												<li>View and modify employee details including contact info, role, and employment status</li>
+												<li>Terminated employees are automatically moved to Past Employees for records</li>
+												<li>Allows reassigning old employees from the "Past Employees" Section</li>
+											</ul>
+											<p>The Manager App Employee Management screen streamlines team organization, technician assignments, and employment records—helping managers keep track of active staff and past employees with full visibility and control.</p>
+										</div>
+									</div>
+								</section>
+								<section>
+									<div class="image-container" style="display: flex; gap: 20px; margin-bottom: 20px;">
+										<a class="image" style="flex: 1;">
+											<img src="images/manager inventory management screen.png" alt="Current Employees screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+										<a class="image" style="flex: 1;">
+											<img src="images/manager supplier screen.png" alt="Past Employees screenshot" style="width: 100%; height: auto; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+										</a>
+									</div>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Manager App - Inventory and Supplier Management</h3>
+											</header>
+											<p>Allows managers to add, remove, and edit supplier and inventory information. Search functionality added for efficient tracking.
+
+											</p>
+										</div>
+									</div>
+								</section>
+								
+								<section>
+								
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Final Thoughts</h3>
+											</header>
+											<p>
+												Working on the LapBoost app was an intense but rewarding experience that
+												pushed me to refine both my technical and problem-solving skills.
+												I learned a lot about separation of privileges, ensuring that
+												managers, technicians, and customers each had the right level of
+												access to the system. Database design was another key
+												challenge—structuring an MySQL database to handle both service
+												orders and marketplace purchases while keeping everything efficient
+												and scalable. Integrating the database with Flutter was a major
+												part of the process, especially handling real-time updates for order
+												tracking. One of the biggest improvements was adding a cart system,
+												allowing customers to place multiple orders at once, whether for
+												services or marketplace items. The UI also evolved significantly,
+												making the process smoother and more intuitive. Completing all of
+												these major revisions in just three days under a tight deadline really proved to me
+												that I can work effectively under pressure while still delivering a
+												solid product. And to top it all off, LapBoost won 1st place in the
+												ECEN424 course ranking at the 19th Undergraduate Research Forum (UGRF),
+												which was an incredible way to wrap up the project!
+											</p>
+											
+										</div>
+									</div>
+								</section>
+					</div>
 
 				<!-- Footer -->
 				<footer id="footer">
 					<div class="inner">
 						<ul class="icons">
-							<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
-							<!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-							<!-- <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
 							<li><a href="https://www.upwork.com/freelancers/~012a7da7381c9cf412" class="fa-brands fa-upwork"><span class="label">Upwork</span></a></li>
 							<li><a href="https://github.com/YMANSY1" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 							<li><a href="https://www.linkedin.com/in/youssef-mansy/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
